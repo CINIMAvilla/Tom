@@ -50,8 +50,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
- 
+            InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -84,36 +83,23 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔄 Try Again 👈 Tap me 🥰", callback_data=f"{pre}#{file_id}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text=Script.FORCESUB_TXT,
+            text="*🗣️താഴെ  കാണുന്ന  ചാനലിൽ നിങ്ങൾ ഇല്ല അതുകൊണ്ട് നിങ്ങൾക്ക് സിനിമ കിട്ടില്ല... സിനിമ കിട്ടാനായി താഴെ കാണുന്ന JOIN MY UPDATE CHANNEL എന്ന ബട്ടനിൽ ക്ലിക്ക് ചെയ്തു ഞങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യുക എങ്കിൽ മാത്രമേ നിങ്ങൾക്ക് മൂവി ഈ ബോട്ട് വഴി ലഭിക്കുകയുള്ളു. അതു കഴ്ഞ്ഞു താഴെ  കാണുന്ന 👉Try again👈 എന്നുള്ളതിൽ ക്ലിക്ക് ചെയ്തു Start കൊടുത്താൽ നിങ്ങൾക്ക് മൂവി കിട്ടുന്നതാണ്...😁😁*",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-
             InlineKeyboardButton('➕️Add me to your Group ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-
             ],[
-
             InlineKeyboardButton('💥help💥', callback_data='help'),
-
             InlineKeyboardButton('📖about📖', callback_data='about')
-
             ],[
-
             InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
-
             ],[
-
-            InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
-
- 
-
+            InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion')
             ],[
-
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
-
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -158,11 +144,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
+                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
                 ]
                 ]
             try:
@@ -271,14 +257,14 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [
-        [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-        ],
-        [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
-        ]
-        ]
+                [
+                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
+                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
+                ],
+                [
+                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
+                ]
+                ]
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
