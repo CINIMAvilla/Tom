@@ -361,11 +361,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
                 [
-                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
-                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
+                    InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
                 ],
                 [
-                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
+                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
                 ]
                 ]
             
@@ -415,11 +415,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
                 [
-                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
-                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
+                    InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
                 ],
                 [
-                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
+                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
                 ]
                 ]
         await query.answer()
@@ -434,16 +434,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕️Add me to your Chat➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('💥help💥', callback_data='help'),
+            InlineKeyboardButton('📖about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
-            ],[
+             InlineKeyboardButton('💰 Paid Promotion 💸', url='https://t.me/CVPaid_promotion')
+             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -490,10 +489,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('status', callback_data='stats'),
-            InlineKeyboardButton('source', callback_data='source')
+            InlineKeyboardButton('📝status', callback_data='stats'),
+            InlineKeyboardButton('🔗source', callback_data='source')
             ],[
-            InlineKeyboardButton('search movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search movie🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('help & commands', callback_data='help')
             ],[
