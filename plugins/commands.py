@@ -144,11 +144,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
-                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
+                    InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
                 ],
                 [
-                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
+                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
                 ]
                 ]
             try:
@@ -258,11 +258,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
                 [
-                    InlineKeyboardButton('💳Paid Promotion 💸', url='https://t.me/CVPaid_promotion'),
-                    InlineKeyboardButton('channel', url='https://telegram.me/CV_Community')
+                    InlineKeyboardButton('🧲Group🧲', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a'),
+                    InlineKeyboardButton('⭕️channel⭕️', url='https://telegram.me/CV_Community')
                 ],
                 [
-                    InlineKeyboardButton('Group', url=f'https://t.me/c_i_n_i_m_a_v_i_l_l_a')
+                    InlineKeyboardButton('💰 Paid Promotion', url='https://t.me/CVPaid_promotion')
                 ]
                 ]
     await client.send_cached_media(
