@@ -6,11 +6,11 @@ class Script(object):
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/DREM_HAKER'>★  ∂яєαм нα¢кєя★</a>
-➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
-➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
-➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
+➥ 👨‍💻Creator: <a href='https://t.me/DREM_HAKER'>★  ∂яєαм нα¢кєя★</a>
+➥ 📚Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
+➥ ✏️Language: Python 𝟹
+➥ 📂Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
+➥ 🔌Bot Server: <a href='https://heroku.com'>Heroku</a>
 ➥ 💳Paid Promotion: <a href='https://t.me/CVPaid_promotion'> PAID PROMOTER </a>"""
 
     SOURCE_TXT = """<b>NOTE:</b>👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌</i></b><b>👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/DREM_HAKER'>★∂яєαм нα¢кєя★</a> </b>"""
